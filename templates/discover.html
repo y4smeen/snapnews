@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Discover{% endblock %}
+
+{% block style %}
+<style>
+  .singleSource h1 {
+    position: relative;
+    left: 10px;
+  }
+
+  .singleSource img {
+    width: 100px;
+    height: auto;
+    float: left;
+  }
+
+  iframe {
+    position: relative;
+    /*left: 10 px;*/
+  }
+
+  /*button {
+    float: right;
+    margin-left: 50px;
+  }*/
+
+  .button-error {
+    color: white;
+    background: rgb(202, 60, 60);
+  }
+
+  .button-success {
+    background: rgb(28, 184, 65);
+  }
+
+  .button-secondary {
+    background: blue;
+    color: white;
+  }
+
+</style>
+{% endblock %}
+
+{% block content %}
+<div>
+  {% for source in sources %}
+  <div class="singleSource">
+    <img src="{{ source['logo'] }}"></img>
+    <br>
+    <a href="{{ source['fbPageName'] }}"><h1>{{ source['newsName'] }}</h1></a>
+    {% if source['leans'] == "Left" %}
+    <button class="button-secondary pure-button"></button>
+    {% endif %}
+    {% if source['leans'] == "Neutral" %}
+    <button class="button-success pure-button"></button>
+    {% endif %}
+    {% if source['leans'] == "Right" %}
+    <button class="button-error pure-button"></button>
+    {% endif %}
+    <br>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F{{ source['fbPageName'] }}&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=552071944982395" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  <div>
+    <br>
+    <br>
+  {% endfor %}
+</div>
+{% endblock %}

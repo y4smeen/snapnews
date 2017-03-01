@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title}News Feed{% endblock %}
+{% block content %}
+<!-- A wrapper for all the videos -->
+
+<div class="posts">
+    {% for video in videos %}
+    <section class="post">
+        <header class="post-header">
+            <h2 class="post-title">{{ video.title }}</h2>
+        </header>
+
+        <div class="post-description">
+            <p>
+                {{ video.description }}
+            </p>
+        </div>
+
+        <div>
+          <video width="320" height="240" controls>
+            <source src="{{ video.mp4 }}" type="video/mp4">
+            <source src="{{ video.ogg }}" type="video/ogg"> Your browser does not support the video tag.
+          </video>
+        </div>
+    </section>
+    {% endfor %}
+    <section class="post">
+        <header class="post-header">
+            <h2 class="post-title">Sample Video</h2>
+        </header>
+
+        <div class="post-description">
+            <p>
+                {{ video.description }}
+            </p>
+        </div>
+
+        <div>
+          <video width="auto" height="auto" controls>
+            <source src="https://scontent.xx.fbcdn.net/v/t42.9040-29/10000000_1289027731165985_8563922496233930752_n.mp4?efg=eyJybHIiOjE1MDAsInJsYSI6NDA5NiwidmVuY29kZV90YWciOiJzZCJ9&rl=1500&vabr=530&oh=66794f6808f59950a1b3e5fa5cc5cf74&oe=58B37930" type="video/mp4">
+          </video>
+        </div>
+    </section>
+</div>
+{% endblock %}

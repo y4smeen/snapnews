@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title}News Feed{% endblock %}
+{% block style %}
+<script src='../static/js/gifshot.js'></script>
+{% endblock %}
+{% block content %}
+<!-- A wrapper for all the videos -->
+
+<div class="posts">
+    {% for i in range(0,limit) %}
+    <section class="post">
+
+        <!-- <div class="post-description">
+            <p>
+            </p>
+        </div> -->
+        <script>
+        var imageArr = {};
+        {% for img in videos[i]['thumbnails']['data'] %}
+          imageArr.append('{{ img['uri'] }}')
+        {% endfor %}
+        gifshot.createGIF({
+            'images': imageArr;
+        },function(obj) {
+            if(!obj.error) {
+                var image = obj.image,
+                animatedImage = document.createElement('img');
+                animatedImage.src = image;
+                // document.body.appendChild(animatedImage);
+                $("section.post").appendChild(animatedImage);
+            }
+        });
+        </script>
+
+        <div>
+
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+{% endblock %}

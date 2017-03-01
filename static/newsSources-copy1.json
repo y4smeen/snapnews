@@ -1,0 +1,92 @@
+{
+  "sources": [
+  {
+    "newsName": "Associated Press (AP)",
+    "fbLink": "https://www.facebook.com/APNews",
+    "fbPageName": "APNews",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/c28.10.125.125/405430_10150579117881623_572350553_n.jpg?oh=9f70b328c0ad33fb80ad8cd09b2de6df&oe=594786DC",
+    "leans": "neutral",
+    "follows": false
+  },
+  {
+    "newsName": "BuzzFeedNews News",
+    "fbLink": "https://www.facebook.com/BuzzFeedNews",
+    "fbPageName": "BuzzFeedNews",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/12933088_1127992467221770_3360959891723913917_n.png?oh=27e50f3d4a257f77929cdfe19f8af454&oe=59299AAB",
+    "leans": "left3",
+    "follows": false
+  },
+  {
+    "newsName": "BBC News",
+    "fbLink": "https://www.facebook.com/bbcnews",
+    "fbPageName": "bbcnews",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/1926656_10151955586072217_265500303_n.png?oh=153beb051b55ca89c7f821448681faf7&oe=5944FD7D",
+    "leans": "left1",
+    "follows": false
+  },
+  {
+    "newsName": "CNN",
+    "fbLink": "https://www.facebook.com/cnn",
+    "fbPageName": "cnn",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/12289622_10154246192721509_1897912583584847639_n.png?oh=600a4c86ac4b6a0f2d12168302b361bc&oe=59299902",
+    "leans": "left1",
+    "follows": false
+  },
+  {
+    "newsName": "Fox News",
+    "fbLink": "https://www.facebook.com/FoxNews",
+    "fbPageName": "FoxNews",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/417751_10150581617531336_1949382366_n.jpg?oh=ad770ddadb18212bc452ac236da10865&oe=59295916",
+    "leans": "right2",
+    "follows": false
+  },
+  {
+    "newsName": "ABC News",
+    "fbLink": "https://www.facebook.com/ABCNews",
+    "fbPageName": "ABCNews",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/419441_10151617599643812_438296246_n.png?oh=6070b9b978ca21c4f4784386bfc1a2bf&oe=592FD08B",
+    "leans": "left1",
+    "follows": false
+  },
+  {
+    "newsName": "The Wall Street Journal (WSJ)",
+    "fbLink": "https://www.facebook.com/wsj",
+    "fbPageName": "wsj",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/10425183_10153042997503128_8853743190705642331_n.jpg?oh=0da3aa4582869bd80ed36b6658c80831&oe=5937473D",
+    "leans": "right1",
+    "follows": false
+  },
+  {
+    "newsName": "Breitbart",
+    "fbLink": "https://www.facebook.com/Breitbart",
+    "fbPageName": "Breitbart",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/227458_10152346853555354_25751187_n.jpg?oh=a7ab1df576d59b96dcc81e2848d32dc8&oe=5970AB96",
+    "leans": "right3",
+    "follows": false
+  },
+  {
+    "newsName": "New York Post",
+    "fbLink": "https://www.facebook.com/NYPost",
+    "fbPageName": "NYPost",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/12932928_10157483552025206_1176575955706691041_n.png?oh=b34028fa0787978986849616334d88b2&oe=593E14CA",
+    "leans": "right1",
+    "follows": false
+  },
+  {
+    "newsName": "C-SPAN",
+    "fbLink": "https://www.facebook.com/CSPAN",
+    "fbPageName": "CSPAN",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/215077_10150338412165579_7954308_n.jpg?oh=11ce5592d467d3afe34bb10fa1af7ab3&oe=592CF836",
+    "leans": "neutral",
+    "follows": false
+  },
+  {
+    "newsName": "Reuters",
+    "fbLink": "https://www.facebook.com/Reuters",
+    "fbPageName": "Reuters",
+    "logo": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/297032_551301704890190_333025026_n.png?oh=10cf889281d385a2f32812167a03b4f6&oe=5928F2EE",
+    "leans": "neutral",
+    "follows": false
+  }
+  ]
+}
